@@ -1,0 +1,44 @@
+img{
+    width: 350px;
+    height: 350px;
+    border-shadow: 200px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+body{
+    background-color: rgba(246,246,246);
+}
+
+.wrapper{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group{
+    margin: 20px 0;
+}
+
+.btn-primary{
+    margin-top: 10px;
+    width: 70px;
+}
+
+.btn-success{
+    margin-right: 5px;
+}
+
+.btn-danger{
+    width: 70px;
+}
+
+h4{
+    margin-right: auto;
+}
